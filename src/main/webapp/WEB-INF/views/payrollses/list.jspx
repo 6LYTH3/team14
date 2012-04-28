@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springroo_salary_domain_PayRolls" items="${payrollses}" z="bxBrSSikWE/2hUfrl1S33bvGr/w=">
+        <table:table data="${payrollses}" id="l_com_springroo_salary_domain_PayRolls" path="/payrollses" z="FBktNAkBxEJZghEgne6UIdAfneQ=">
+            <table:column id="c_com_springroo_salary_domain_PayRolls_payPerMonth" property="payPerMonth" z="VPEFAtqTLr0N8CpBx6Dk9o4kGtU="/>
+            <table:column id="c_com_springroo_salary_domain_PayRolls_ids" property="ids" z="O3Omq6Mf2FObW2EGJpPzTv+zNic="/>
+            <table:column id="c_com_springroo_salary_domain_PayRolls_bonus" property="bonus" z="te0Ek+QBudRfh0pf/8eCBKlg+Vs="/>
+            <table:column id="c_com_springroo_salary_domain_PayRolls_pTax" property="PTax" z="ad4wyCeolswMFKPuryCd5NNT/w4="/>
+            <table:column id="c_com_springroo_salary_domain_PayRolls_payTotal" property="payTotal" z="2+joDDmnpZFtUTev6T04UrSQw+Q="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springroo_salary_domain_PayRolls" modelAttribute="payRolls" path="/payrollses" versionField="Version" z="6hZDcEki5wRlbO4YKhNgwmfBZR0=">
+        <field:select field="payPerMonth" id="c_com_springroo_salary_domain_PayRolls_payPerMonth" items="${monthses}" path="monthses" z="TQXuY3cpgEeB76V0JNomM5BqvUU="/>
+        <field:input field="ids" id="c_com_springroo_salary_domain_PayRolls_ids" z="uhio4etFl+TeYtnMs5/Kp9EjgT4="/>
+        <field:input field="bonus" id="c_com_springroo_salary_domain_PayRolls_bonus" validationMessageCode="field_invalid_number" z="8HAeJdJFu4zj35OB3sAVISe0HeY="/>
+        <field:input field="pTax" id="c_com_springroo_salary_domain_PayRolls_pTax" validationMessageCode="field_invalid_number" z="KUUws/kqMneiBGj4UL7SSXZywXU="/>
+        <field:input field="payTotal" id="c_com_springroo_salary_domain_PayRolls_payTotal" z="RxCjqprxloGYVJ/3iVPUadnxVLE="/>
+    </form:update>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springroo_salary_domain_ProblemReports" items="${problemreportses}" z="b+NBv82PHlUtVJqise6zhBJ0714=">
+        <table:table data="${problemreportses}" id="l_com_springroo_salary_domain_ProblemReports" path="/problemreportses" z="QRmqFYO6UDHOsLeDz+yBxWocDMI=">
+            <table:column id="c_com_springroo_salary_domain_ProblemReports_topic" property="topic" z="rwxIixPtrDls8ZE1IpyGpV+vYLc="/>
+            <table:column id="c_com_springroo_salary_domain_ProblemReports_name" property="name" z="bpsWwfVqzUagPr8zCgsffwjAHCg="/>
+            <table:column id="c_com_springroo_salary_domain_ProblemReports_messages" property="messages" z="pwKIWk36hcgSQeetZNibzIrF60E="/>
+            <table:column id="c_com_springroo_salary_domain_ProblemReports_problemChoices" property="problemChoices" z="xxU5MH1TG6baR21pYpVIiRTVmyM="/>
+            <table:column id="c_com_springroo_salary_domain_ProblemReports_problemStatus" property="problemStatus" z="F7YYJug5ztxr152BUmR+by57J0I="/>
+            <table:column id="c_com_springroo_salary_domain_ProblemReports_write_date" property="write_date" z="F/hCj9uPGCcophfyKqI7foGl/ow="/>
+        </table:table>
+    </page:list>
+</div>

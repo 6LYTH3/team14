@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByPid" id="ff_com_springroo_salary_domain_AdvancedPayments" path="/advancedpaymentses" z="mAE3Z5nFbMhYaYL2WESAlp1Lv2s=">
+        <field:select disableFormBinding="true" field="pid" id="f_com_springroo_salary_domain_AdvancedPayments_pid" itemValue="id" items="${userses}" path="/userses" required="true" z="L+dkOYFKRyJDRZne9T0x3BRpo94="/>
+    </form:find>
+</div>

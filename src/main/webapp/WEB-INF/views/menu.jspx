@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" xmlns:sec="http://www.springframework.org/security/tags" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_users" z="Ysam8XVhG5uotPoUGGxkia1RE/s=">
+            <sec:authorize ifAllGranted="ROLE_ADMIN">
+                <menu:item id="i_users_new" messageCode="global_menu_new" url="/userses?form" z="utrdLkYms6xk5f4IDxc9zrg5FWs="/>
+            </sec:authorize>
+            <menu:item id="i_users_list" messageCode="global_menu_list" url="/userses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tqSwojZmRduyx4xtHWcJzgbgtJk="/>
+            <menu:item id="fi_users_idsequals" messageCode="global_menu_find" url="/userses?find=ByIdsEquals&amp;form" z="qgr4x7CojEPAJAnm3+YktLqTWuA="/>
+            <menu:item id="fi_users_usernameequals" messageCode="global_menu_find" url="/userses?find=ByUserNameEquals&amp;form" z="/oFDh3aIFMpXDOrn+V4Hz1Rrje8="/>
+        </menu:category>
+        <menu:category id="c_startsalarys" z="Cq+HpkHqYnRhWRJvgsSFx7RRgGg=">
+            <sec:authorize ifAllGranted="ROLE_ADMIN">
+                <menu:item id="i_startsalarys_new" messageCode="global_menu_new" url="/startsalaryses?form" z="Csh6/Un87V41HrPOzxe58JmHqyg="/>
+            </sec:authorize>
+            <menu:item id="i_startsalarys_list" messageCode="global_menu_list" url="/startsalaryses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="h6Jf/250bYnP1M5iPfw/uB1Ynik="/>
+            <menu:item id="fi_startsalarys_ids" messageCode="global_menu_find" url="/startsalaryses?find=ByIds&amp;form" z="xCBOiB59UmLjUeYvchu3luGlwD0="/>
+        </menu:category>
+        <menu:category id="c_advancedpayments" z="CFUaktJ2bwCV7J3h1ActrZR2XyI=">
+            <menu:item id="i_advancedpayments_new" messageCode="global_menu_new" url="/advancedpaymentses?form" z="hjzXM9Sqz+PjCfXL/QwqONzdeWs="/>
+            <menu:item id="i_advancedpayments_list" messageCode="global_menu_list" url="/advancedpaymentses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Z5F6nM5jSwzX5XXMb2MLa2IwXMw="/>
+            <sec:authorize ifAllGranted="ROLE_ADMIN">
+            <menu:item id="fi_advancedpayments_datewriteequals" messageCode="global_menu_find" url="/advancedpaymentses?find=ByDateWriteEquals&amp;form" z="DLOxvzg/9ps4RM6mWpQw3m/RcRk="/>
+            </sec:authorize>
+            <menu:item id="fi_advancedpayments_pid" messageCode="global_menu_find" url="/advancedpaymentses?find=ByPid&amp;form" z="2ZLgwEKBkjd4QaTid4YtXZa7ZQM="/>
+        </menu:category>
+        <menu:category id="c_problemreports" z="VvfJbrMHKOY0hPo4+j0MnNgO1U4=">
+            <menu:item id="i_problemreports_new" messageCode="global_menu_new" url="/problemreportses?form" z="aLGwwV03kYAdNCeO2DoOrKr7HvM="/>
+            <menu:item id="i_problemreports_list" messageCode="global_menu_list" url="/problemreportses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="+OR3xy/cz5+1/+E4cJU0BRVi7qU="/>
+            <menu:item id="fi_problemreports_problemchoices" messageCode="global_menu_find" url="/problemreportses?find=ByProblemChoices&amp;form" z="RlRC+ObEIfey/5BLtFItDZqxVGE="/>
+            <menu:item id="fi_problemreports_problemstatus" messageCode="global_menu_find" url="/problemreportses?find=ByProblemStatus&amp;form" z="Xq817VUh7Vp0cMORvIf8gacZloE="/>
+            <menu:item id="fi_problemreports_topiclike" messageCode="global_menu_find" url="/problemreportses?find=ByTopicLike&amp;form" z="FZ57Y5OX36ySOCYJCR1fePhrY8E="/>
+        </menu:category>
+        <sec:authorize ifAllGranted="ROLE_ADMIN">
+            <menu:category id="c_configuration" z="ex6zSpCyqSksY2xxo+2yaACAxic=">
+                <menu:item id="i_configuration_new" messageCode="global_menu_new" url="/configurations?form" z="PpKhRYSLF3fMvOlr5J8dEALoaF8="/>
+                <menu:item id="i_configuration_list" messageCode="global_menu_list" url="/configurations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eTnA6q7aRKdliIXm9IDu8P8bUhU="/>
+            </menu:category>
+        </sec:authorize>
+        <menu:category id="c_payrolls" z="cLzjudxkUSuD4wmgjF0A+Gk6JzQ=">
+            <sec:authorize ifAllGranted="ROLE_ADMIN">
+            <menu:item id="i_payrolls_new" messageCode="global_menu_new" url="/payrollses?form" z="fMkcdgr1P5PHoukzM+iuVUuF38U="/>
+        </sec:authorize>
+            <menu:item id="i_payrolls_list" messageCode="global_menu_list" url="/payrollses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="H8jJXYLf3xq7Kq64AqecxMQp1NE="/>
+            <menu:item id="fi_payrolls_paypermonth" messageCode="global_menu_find" url="/payrollses?find=ByPayPerMonth&amp;form" z="9MkdZUvCe3assJX1sJ93k5mg1lk="/>
+            <menu:item id="fi_payrolls_idsequals" messageCode="global_menu_find" url="/payrollses?find=ByIdsEquals&amp;form" z="Odk0WE3R7gP7YTktnKJJVYcpxrY="/>
+        </menu:category>
+    </menu:menu>
+</div>

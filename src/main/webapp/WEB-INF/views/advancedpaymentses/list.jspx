@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springroo_salary_domain_AdvancedPayments" items="${advancedpaymentses}" z="1Tc6lVs7fz2Zjyupul1UaRK9108=">
+        <table:table data="${advancedpaymentses}" id="l_com_springroo_salary_domain_AdvancedPayments" path="/advancedpaymentses" z="9Yn4R5trdLW6SmGwl76idVLNjc4=">
+            <table:column id="c_com_springroo_salary_domain_AdvancedPayments_pid" property="pid" z="bf1tNVVYi1eqaPWBfM2rEBM0pI0="/>
+            <table:column id="c_com_springroo_salary_domain_AdvancedPayments_dateWrite" property="dateWrite" z="adjljIyHQ13CZOHHcB1oLSPlTyk="/>
+            <table:column id="c_com_springroo_salary_domain_AdvancedPayments_reason" property="reason" z="InZ5rx7fW418vC0nrk9rzLecO9g="/>
+            <table:column id="c_com_springroo_salary_domain_AdvancedPayments_amount" property="amount" z="Gelu0GH5xJe4QjC8a0/6swwUzu4="/>
+            <table:column date="true" dateTimePattern="${advancedPayments_amoutdate_date_format}" id="c_com_springroo_salary_domain_AdvancedPayments_amoutDate" property="amoutDate" z="+DnOlSW0buTPbvmpZ6O9XAbDf/k="/>
+            <table:column id="c_com_springroo_salary_domain_AdvancedPayments_approve" property="approve" z="BzYhqqMSASDhuIZPQUZFfU6hAk8="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="advancedpaymentses/list">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/list.jspx"/>
+    </definition>
+<definition extends="default" name="advancedpaymentses/show">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/show.jspx"/>
+    </definition>
+<definition extends="default" name="advancedpaymentses/create">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/create.jspx"/>
+    </definition>
+<definition extends="default" name="advancedpaymentses/update">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/update.jspx"/>
+    </definition>
+<definition extends="default" name="advancedpaymentses/findAdvancedPaymentsesByUsers">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/findAdvancedPaymentsesByUsers.jspx"/>
+    </definition>
+<definition extends="default" name="advancedpaymentses/findAdvancedPaymentsesByPid">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/findAdvancedPaymentsesByPid.jspx"/>
+    </definition>
+<definition extends="default" name="advancedpaymentses/findAdvancedPaymentsesByDateWriteEquals">
+        <put-attribute name="body" value="/WEB-INF/views/advancedpaymentses/findAdvancedPaymentsesByDateWriteEquals.jspx"/>
+    </definition>
+</tiles-definitions>

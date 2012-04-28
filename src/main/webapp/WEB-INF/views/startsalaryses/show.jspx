@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springroo_salary_domain_StartSalarys" object="${startsalarys}" path="/startsalaryses" z="9Bt+vjOpRsVVQtXYCOF9MPj6388=">
+        <field:display field="ids" id="s_com_springroo_salary_domain_StartSalarys_ids" object="${startsalarys}" z="IA0N7bxX8qYwgzSvUmImyN7L3QE="/>
+        <field:display field="salaryDefualt" id="s_com_springroo_salary_domain_StartSalarys_salaryDefualt" object="${startsalarys}" z="fls32jqKOB20t+u0pyIdP/UAsDg="/>
+        <field:display field="bonus" id="s_com_springroo_salary_domain_StartSalarys_bonus" object="${startsalarys}" z="eZCLJS0K2a1Q5tKv2Ut2Vsp+c1s="/>
+        <field:display field="tax" id="s_com_springroo_salary_domain_StartSalarys_tax" object="${startsalarys}" z="7umj4Xm5Cd4IkamxMWkhfUAveWs="/>
+        <field:display field="withdraw" id="s_com_springroo_salary_domain_StartSalarys_withdraw" object="${startsalarys}" z="2NWgtrZdT3zzf0g6xZEjmg+PrQM="/>
+        <field:display field="total" id="s_com_springroo_salary_domain_StartSalarys_total" object="${startsalarys}" z="v/uODCNvaLU4leRozzAn8lrRaq4="/>
+        <field:display field="dateConf" id="s_com_springroo_salary_domain_StartSalarys_dateConf" object="${startsalarys}" z="VVqsmh/ziLkUH36SgPUZfXbHkLM="/>
+    </page:show>
+</div>

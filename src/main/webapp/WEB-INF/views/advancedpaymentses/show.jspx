@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springroo_salary_domain_AdvancedPayments" object="${advancedpayments}" path="/advancedpaymentses" z="2zV4MXKAyrRuBnz/tFuFYrev//c=">
+        <field:display field="pid" id="s_com_springroo_salary_domain_AdvancedPayments_pid" object="${advancedpayments}" z="1NxKXDocY1BZOQwgB9WdZUUBNv4="/>
+        <field:display field="dateWrite" id="s_com_springroo_salary_domain_AdvancedPayments_dateWrite" object="${advancedpayments}" z="uqQFCv8dZWbZJ56ut+IfeU9RKnM="/>
+        <field:display field="reason" id="s_com_springroo_salary_domain_AdvancedPayments_reason" object="${advancedpayments}" z="vLS/5oaCoijQg1mvBAIXIEkm1nU="/>
+        <field:display field="amount" id="s_com_springroo_salary_domain_AdvancedPayments_amount" object="${advancedpayments}" z="GR++0kjv3X24gl8z4m8nHa59pFo="/>
+        <field:display date="true" dateTimePattern="${advancedPayments_amoutdate_date_format}" field="amoutDate" id="s_com_springroo_salary_domain_AdvancedPayments_amoutDate" object="${advancedpayments}" z="XuBnKjSmK3klg4JUkKFuqIeUsHc="/>
+        <field:display field="approve" id="s_com_springroo_salary_domain_AdvancedPayments_approve" object="${advancedpayments}" z="j47Rs3Ce53BPkTrvbTRVKWdam00="/>
+        <field:display field="reasonNotApprove" id="s_com_springroo_salary_domain_AdvancedPayments_reasonNotApprove" object="${advancedpayments}" z="QvGOIupwXG4utxPZDbCqL0scIEk="/>
+    </page:show>
+</div>

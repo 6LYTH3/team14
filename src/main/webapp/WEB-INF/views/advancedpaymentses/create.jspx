@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:sec="http://www.springframework.org/security/tags" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_springroo_salary_domain_AdvancedPayments" modelAttribute="advancedPayments" path="/advancedpaymentses" render="${empty dependencies}" z="2It5EcpEjRJJCl5ZYbOc/gveuSM=">
+        <field:select field="pid" id="c_com_springroo_salary_domain_AdvancedPayments_pid" itemValue="id" items="${userses}" path="/userses" z="D8wpxTevlX3phCkQVERSXWT6fOU="/>
+        <field:input field="dateWrite" id="c_com_springroo_salary_domain_AdvancedPayments_dateWrite" required="true" z="rfJq24cC7LseT9zajGWJNSTvPfI="/>
+        <field:textarea field="reason" id="c_com_springroo_salary_domain_AdvancedPayments_reason" required="true" z="7p4A8a2oaCUAKrHnRGFkT7KUw3U="/>
+        <field:input field="amount" id="c_com_springroo_salary_domain_AdvancedPayments_amount" validationMessageCode="field_invalid_number" z="a4bv/sC2VfVfPVqzy6m/AULn+JQ="/>
+        <field:datetime dateTimePattern="${advancedPayments_amoutdate_date_format}" field="amoutDate" id="c_com_springroo_salary_domain_AdvancedPayments_amoutDate" z="x1TUQ/O1B0Rl9/uvASXAk8eH1tw="/>
+        <sec:authorize ifAllGranted="ROLE_ADMIN">
+            <field:checkbox field="approve" id="c_com_springroo_salary_domain_AdvancedPayments_approve" z="N2KpJU23GfanCMTpBdhy8qROi68="/>
+            <field:textarea field="reasonNotApprove" id="c_com_springroo_salary_domain_AdvancedPayments_reasonNotApprove" z="9b1GmP8m7yeADq7muNTMsBvUQ4Q="/>
+        </sec:authorize>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_springroo_salary_domain_AdvancedPayments" render="${not empty dependencies}" z="IfXo87zhuTLOKfB+chR/PCznMEI="/>
+</div>

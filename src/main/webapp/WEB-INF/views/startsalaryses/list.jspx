@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springroo_salary_domain_StartSalarys" items="${startsalaryses}" z="/AV1HwYZdU2ihl059OXlvYS9wxw=">
+        <table:table data="${startsalaryses}" id="l_com_springroo_salary_domain_StartSalarys" path="/startsalaryses" z="VJzHLix84ijSa4u7jejmJgOgNHI=">
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_ids" property="ids" z="aI3I65hDD0ZvriRaZkKWD7MdE+g="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_salaryDefualt" property="salaryDefualt" z="4GNvfdIUuIcvgSbdxKsj2W2hRjI="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_bonus" property="bonus" z="OQzx4ZoeJ0kKKAYF9zWPcU6cEFo="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_tax" property="tax" z="Qcg3exYLjq/DE/dM69Rmzsfr600="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_withdraw" property="withdraw" z="WTiclc2G7rLDDu/IuaDaozBDxWA="/>
+            <!--
+               <table:column id="c_com_springroo_salary_domain_StartSalarys_ids" property="ids" z="aI3I65hDD0ZvriRaZkKWD7MdE+g="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_salaryDefualt" property="salaryDefualt" z="4GNvfdIUuIcvgSbdxKsj2W2hRjI="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_bonus" property="bonus" z="OQzx4ZoeJ0kKKAYF9zWPcU6cEFo="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_tax" property="tax" z="Qcg3exYLjq/DE/dM69Rmzsfr600="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_total" property="total" z="HD6d7kLfmeYvNNjm4RRzjqOlilw="/>
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_withdraw" property="withdraw" z="WTiclc2G7rLDDu/IuaDaozBDxWA="/>
+            <table:column calendar="true" dateTimePattern="${startSalarys_datepay_date_format}" id="c_com_springroo_salary_domain_StartSalarys_datePay" property="datePay" z="MpB4UiA06iojNl4SO+C9H9kJ2co="/>
+	    -->
+            <table:column id="c_com_springroo_salary_domain_StartSalarys_total" property="total" z="HD6d7kLfmeYvNNjm4RRzjqOlilw="/>
+        </table:table>
+    </page:list>
+</div>

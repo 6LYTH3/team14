@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="problemreportses/list">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/list.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/show">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/show.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/create">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/create.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/update">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/update.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/findProblemReportsesByTopicLike">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/findProblemReportsesByTopicLike.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/findProblemReportsesByName">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/findProblemReportsesByName.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/findProblemReportsesByProblemChoices">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/findProblemReportsesByProblemChoices.jspx"/>
+    </definition>
+<definition extends="default" name="problemreportses/findProblemReportsesByProblemStatus">
+        <put-attribute name="body" value="/WEB-INF/views/problemreportses/findProblemReportsesByProblemStatus.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springroo_salary_domain_ProblemReports" object="${problemreports}" path="/problemreportses" z="gZPK8hfDeSJvFN5MySHPQ4lh4pE=">
+        <field:display field="topic" id="s_com_springroo_salary_domain_ProblemReports_topic" object="${problemreports}" z="IIBJcZdVsruEnKNLUybjpFVO8aw="/>
+        <field:display field="name" id="s_com_springroo_salary_domain_ProblemReports_name" object="${problemreports}" z="y5oqrJLHwycqH4U7OoUWiW7sYqs="/>
+        <field:display field="messages" id="s_com_springroo_salary_domain_ProblemReports_messages" object="${problemreports}" z="U7KsaEyEwVGvvinsDNaqhCL4imY="/>
+        <field:display field="problemChoices" id="s_com_springroo_salary_domain_ProblemReports_problemChoices" object="${problemreports}" z="yFwG/EntTzgTFDIpjANS4KVgGzc="/>
+        <field:display field="problemStatus" id="s_com_springroo_salary_domain_ProblemReports_problemStatus" object="${problemreports}" z="txfaZg6ryAArxeS7CIZZqwAUoVA="/>
+        <field:display field="write_date" id="s_com_springroo_salary_domain_ProblemReports_write_date" object="${problemreports}" z="A3TNETGUSu09eMW500IYqoRsfaI="/>
+    </page:show>
+</div>

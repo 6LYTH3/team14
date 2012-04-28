@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springroo_salary_domain_Configuration" object="${configuration}" path="/configurations" z="NUeU3erKG0Rb5k4Bqv/eYry+6Zk=">
+        <field:display field="resetSalary" id="s_com_springroo_salary_domain_Configuration_resetSalary" object="${configuration}" z="njiebJop+HwW1TU8uZ0lubcpkL4="/>
+        <field:display field="approveWithdraw" id="s_com_springroo_salary_domain_Configuration_approveWithdraw" object="${configuration}" z="sk61n9DJedsUE7XVUTJlcpUbN+Y="/>
+    </page:show>
+</div>

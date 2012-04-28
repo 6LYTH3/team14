@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="payrollses/list">
+        <put-attribute name="body" value="/WEB-INF/views/payrollses/list.jspx"/>
+    </definition>
+<definition extends="default" name="payrollses/show">
+        <put-attribute name="body" value="/WEB-INF/views/payrollses/show.jspx"/>
+    </definition>
+<definition extends="default" name="payrollses/create">
+        <put-attribute name="body" value="/WEB-INF/views/payrollses/create.jspx"/>
+    </definition>
+<definition extends="default" name="payrollses/update">
+        <put-attribute name="body" value="/WEB-INF/views/payrollses/update.jspx"/>
+    </definition>
+<definition extends="default" name="payrollses/findPayRollsesByPayPerMonth">
+        <put-attribute name="body" value="/WEB-INF/views/payrollses/findPayRollsesByPayPerMonth.jspx"/>
+    </definition>
+<definition extends="default" name="payrollses/findPayRollsesByIdsEquals">
+        <put-attribute name="body" value="/WEB-INF/views/payrollses/findPayRollsesByIdsEquals.jspx"/>
+    </definition>
+</tiles-definitions>
